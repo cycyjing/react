@@ -26,9 +26,9 @@ npm i create-react-app -g
 
 - 使用脚手架创建一个项目
 
-  ```bash
-  npx create-react-app 项目名
-  ```
+```bash
+npx create-react-app 项目名
+```
 
 ## 组件
 
