@@ -1,0 +1,1 @@
+export const BAR_CHART_DATA = 'BAR_CHART_DATA'
