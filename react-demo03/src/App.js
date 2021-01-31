@@ -1,23 +1,19 @@
 import React, { useState } from 'react'
-import Tap from './components/Tap'
-import Container from './components/Container'
-const App = () => {
-  const [tap, setTap] = useState('one')
-  const handleTap = (value) => {
+import Form from './components/Form'
+import Info from './components/Info'
+
+const App=() => {
+  const [input, setInput]=useState([])
+  const handleInput=(val) => {
     return () => {
-      setTap(value)
+      setInput([...input,val])
     }
   }
 
   return (<>
-    <Tap onTap={handleTap}></Tap>
-    <Container t={tap}></Container>
+    <Info input={input}></Info>
+    <Form onInput={handleInput}></Form>
   </>)
 }
-
-
-const a = () => { }
-
-
 
 export default App
