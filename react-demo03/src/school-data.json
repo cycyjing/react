@@ -1,0 +1,27 @@
+[
+  {
+    "className": "Class 1",
+    "students": [
+      {
+        "userName": "a",
+        "userId": 1
+      },
+      {
+        "userName": "b",
+        "userId": 2
+      },
+      {
+        "userName": "c",
+        "userId": 3
+      },
+      {
+        "userName": "d",
+        "userId": 4
+      }
+    ]
+  },
+  {
+    "className": "Class 2",
+    "students": []
+  }
+]
